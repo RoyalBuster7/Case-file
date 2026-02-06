@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Confidential Case File 💌</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+body {
+  margin: 0;
+  padding: 16px;
+  font-family: Georgia, serif;
+  background: linear-gradient(135deg, #ffe6eb, #fff);
+  color: #2b2b2b;
+}
+
+.container {
+  max-width: 420px;
+  margin: auto;
+}
+
+.heart {
+  text-align: center;
+  font-size: 56px;
+  margin-bottom: 8px;
+  animation: beat 1s infinite;
+}
+
+@keyframes beat {
+  0%,100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+h1 {
+  text-align: center;
+  color: #b3003c;
+  font-size: 24px;
+  margin: 8px 0;
+}
+
+h2 {
+  text-align: center;
+  color: #800020;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.section {
+  margin-bottom: 14px;
+  font-size: 14.5px;
+  line-height: 1.45;
+}
+
+.label {
+  font-weight: bold;
+  color: #800020;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 24px;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 10px;
+  font-size: 16px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.yes {
+  background: #b3003c;
+  color: white;
+}
+
+.no {
+  background: #e0e0e0;
+  color: #444;
+}
+
+.music-btn {
+  background: #fff;
+  border: 1px solid #b3003c;
+  color: #b3003c;
+  margin-bottom: 16px;
+}
+
+.signature {
+  text-align: center;
+  margin-top: 30px;
+  font-style: italic;
+  color: #800020;
+  font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="heart">❤️</div>
+
+<h1>CONFIDENTIAL PATIENT HISTORY</h1>
+<h2>(Handle With Care)</h2>
+
+<!-- Music -->
+<div style="text-align:center; margin-bottom:18px;">
+  <p style="color:#800020; font-size:14px;">
+    🎶 Tap play — this one’s for you
+  </p>
+  <iframe style="border-radius:12px"
+    src="https://open.spotify.com/embed/track/0tgVpDi06FyKpA1z0VMD4v"
+    width="100%" height="80"
+    frameborder="0"
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+  </iframe>
+</div>
+
+<div class="card">
+
+<div class="section"><span class="label">Patient Name:</span> ❤️ Tanvi Mirchi Borole</div>
+<div class="section"><span class="label">Age / Sex:</span> Timeless / Iconic</div>
+<div class="section"><span class="label">Date of Examination:</span> Forever ♾️</div>
+<div class="section"><span class="label">Consulting Doctor:</span> Dr. Ronit Bbbbb Patel</div>
+
+<div class="section">
+<span class="label">Chief Complaint:</span><br>
+Unexplained smiles, racing heartbeat, and making one person miss her constantly.
+</div>
+
+<div class="section">
+<span class="label">History of Present Illness:</span><br>
+Patient entered doctor’s life silently and became a lifelong necessity.
+Symptoms include persistent butterflies, distraction during studies,
+and instant happiness on seeing her name pop up.
+Condition is chronic, progressive, and joyfully irreversible.
+</div>
+
+<div class="section">
+<span class="label">Personal History:</span><br>
+Appetite ↑ with her. Sleep ↓ without her.
+</div>
+
+<div class="section">
+<span class="label">General Examination:</span><br>
+Pulse: Accelerates near patient.<br>
+Heart: Permanently transferred.
+</div>
+
+<div class="section">
+<span class="label">Diagnosis:</span><br>
+💖 Acute Love Syndrome (Non-curable. Desired.)
+</div>
+
+<div class="section">
+<span class="label">Treatment Plan:</span><br>
+Coffee ☕ | Long walks 🌙 | Holding hands 🤍 | Forever ♾️
+</div>
+
+<div class="section">
+<span class="label">Prognosis:</span><br>
+Excellent with lifelong follow-up.
+</div>
+
+</div>
+
+<div class="footer">
+<p><strong>Doctor’s Final Advice:</strong></p>
+<p>
+📍 Wherever our hearts feel at home<br>
+🕰️ Now, Tomorrow & Always
+</p>
+
+<button class="yes" onclick="alert('Diagnosis confirmed 💖 This is officially a forever case.')">
+YES, ALWAYS 💘
+</button>
+
+<button class="no" onclick="alert('No is not an option 😌 Doctor will be very sad, miss you terribly, and still wait. Please reconsider 💔')">
+No 😐
+</button>
+</div>
+
+<div class="signature">
+— Dr. Ronit Bbbbb Patel<br>
+(Yours. Always.)
+</div>
+
+</div>
+
+<script>
+function playMusic() {
+  document.getElementById("bgm").play();
+}
+</script>
+
+</body>
+</html>
